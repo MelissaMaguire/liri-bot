@@ -104,6 +104,7 @@ var app = {
                 break;
                 case "no":
                     console.log("goodbye");
+                    process.exit();
                 break;
             }
         }).catch(error => {
